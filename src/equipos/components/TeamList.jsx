@@ -7,7 +7,7 @@ export const TeamList = ({ league }) => {
     const teams = useMemo( () => getTeamByLeague( league ), [ league ]);
 
     return (
-        <div className="row rows-cols-1 row-cols-md-3 g-3">
+        <div className='row rows-cols-1 row-cols-md-3 g-3'>
             {
                 teams.map( team => (
                     <TeamCard 
