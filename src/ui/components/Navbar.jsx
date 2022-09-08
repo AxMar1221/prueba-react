@@ -23,8 +23,8 @@ export const Navbar = () => {
                         </NavLink>
                         <NavLink 
                             className={ ({isActive}) => `nav-item nav-link  ${ isActive ? 'active':'' }` }
-                            to='puntos'>
-                            Calcular puntos
+                            to='goles'>
+                            Goles favor
                         </NavLink>
                     </div>
                 </div>
